@@ -1,0 +1,246 @@
+.gamearea {
+	position: relative;
+	width: 800px;
+	border: 2px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.gamearea td {
+	width: 33%;
+	height: 100px;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 5em;
+}
+
+.gamearea td:hover {
+	background-color: lightgray;
+}
+
+.selected {
+	border: 1px dashed black;
+}
+
+.pair {
+	border: 1px dashed black;
+	pointer-events: none;
+}
+
+/* Flags */
+
+/* Swedish Flag */
+
+.swedish {
+	height: 100px;
+	width: 160px;
+	background-color: #FECC00;
+	position: relative;
+	margin: auto;
+}
+
+.swedish .inner {
+	width: 50px;
+	height: 40px;
+	background-color: #006AA7;
+	position: absolute;
+}
+
+.swedish .outer {
+	width: 90px;
+	height: 40px;
+	background-color: #006AA7;
+	float: right;
+}
+
+.swedish .arm {
+	width: 20px;
+	height: 40px;
+	position: absolute;
+	left: 50px;
+}
+
+.swedish .flag-middle {
+	clear: both;
+	height: 20px;
+	width: 160px;
+}
+
+/* Vietnamese Flag */
+
+.vietnam {
+	height: 100px;
+	width: 150px;
+	background-color: #DA251D;
+	position: relative;
+	margin: auto;
+}
+
+.vietnam .star {
+	top: 10px;
+	left: -22px;
+	top: 15px;
+	display: block;
+	position: absolute;
+	color: #FFFF00;
+	width: 0px;
+	height: 0px;
+	border-right: 100px solid transparent;
+	border-bottom: 70px solid #FFFF00;
+	border-left: 100px solid transparent;
+	-webkit-transform: rotate(-35deg) scale(.25);
+    -moz-transform: rotate(-35deg) scale(.25);
+    -ms-transform: rotate(-35deg) scale(.25);
+    -o-transform: rotate(-35deg) scale(.25);
+}
+
+.vietnam .star:before {
+   border-bottom: 80px solid #FFFF00;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform: rotate(-35deg);
+   -ms-transform: rotate(-35deg);
+   -o-transform: rotate(-35deg);
+
+}
+
+.vietnam .star:after {
+   position: absolute;
+   display: block;
+   color: #FFFF00;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid #FFFF00;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform: rotate(-70deg);
+   -ms-transform: rotate(-70deg);
+   -o-transform: rotate(-70deg);
+   content: '';
+}
+
+
+/* Maldives Flag */
+
+.maldives {
+	height: 100px;
+	width: 150px;
+	background-color: #D21034;
+	position: relative;
+	margin: auto;
+}
+
+.maldives .inner {
+	display: block;
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	margin: 25px;
+	background-color: #007E3A;
+}
+
+.moon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  box-shadow: -7.5px 0 0 0 white;
+  left: 45px;
+  top: 7.5px;
+  position: absolute;
+}
+
+/* Schweiz Flag */
+
+.schweiz {
+	height: 100px;
+	width: 150px;
+	background-color: #FF0000;
+	position: relative;
+	margin: auto;
+}
+
+
+.cross {
+  background: white;
+  height: 60px;
+  position: relative;
+  width: 20px;
+  margin: auto;
+  top: 20px;
+}
+
+.cross:after {
+  background: white;
+  content: "";
+  height: 20px;
+  left: -20px;
+  position: absolute;
+  top: 20px;
+  width: 60px;
+}
+
+/* Hungary Flag */
+
+.hungary {
+	height: 100px;
+	width: 200px;
+	background-color: white;
+	position: relative;
+	margin: auto;
+}
+
+.hungary .top {
+	height: 33%;
+	background-color: #CD2A3E;
+}
+
+.hungary .middle {
+	height: 33%;
+}
+
+.hungary .bottom {
+	height: 33%;
+	background-color: #436F4D;
+}
+
+/* Italy Flag */
+
+.italy {
+	height: 100px;
+	width: 150px;
+	background-color: white;
+	position: relative;
+	margin: auto;
+}
+
+.italy .left {
+	width: 33%;
+	height: 100%;
+	background-color: #009246;
+	float: left;
+}
+
+.italy .middle {
+	width: 33%;
+	height: 100%;
+	float: left;
+}
+
+.italy .right {
+	width: 33%;
+	height: 100%;
+	background-color: #CE2B37;
+	float: left;
+}

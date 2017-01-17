@@ -1,0 +1,217 @@
+body {
+	min-width: 1100px;
+}
+
+body h1 {
+	text-align: center;
+}
+
+.site-header {
+	width: 100%;
+	background-color: #011C31;
+	color: white;
+	margin: auto;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#content {
+	width: 100%;
+	background-color: white;
+	border: 2px solid #011C31;
+	margin: auto;
+	padding: 20px;
+	box-sizing: border-box;
+	min-height: 600px;
+}
+
+#content p {
+	font-size: 1.5em;
+}
+
+#start {
+	font-size: 1.75em;
+	padding: 20px;
+	border-radius: 12px;
+	background-color: black;
+	color: white;
+	display: block;
+	margin: auto;
+	clear: both;
+}
+
+#start:hover {
+	background-color: #0f6ab3;
+	cursor: pointer;
+}
+
+.site-footer {
+	width: 100%;
+	background-color: #011C31;
+	color: white;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	font-style: italic;
+}
+
+.site-footer span {
+	vertical-align: middle;
+}
+
+.brain {
+	float: left;
+	width: 100px;
+}
+
+.score-list {
+	float: left;
+}
+
+.tests {
+	text-align: center;
+	border-bottom: 2px solid lightgray;
+	padding: 20px;
+}
+
+.test {
+	font-size: 1.25em;
+	color: gray;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.active-test {
+	color: black;
+}
+
+#buttonNext {
+	display: block;
+	margin: auto;
+	padding: 10px;
+	font-size: 1.5em;
+	background-color: #0f6ab3;
+	color: white;
+	border-radius: 12px;
+	pointer-events: none;
+}
+
+#buttonNext:hover {
+	background-color: #011C31;
+	cursor: pointer;
+}
+
+#buttonGo {
+	display: block;
+	margin: auto;
+	padding: 10px;
+	font-size: 1.5em;
+	background-color: #0f6ab3;
+	color: white;
+	border-radius: 12px;
+}
+
+#buttonGo:hover {
+	background-color: #011C31;
+	cursor: pointer;
+}
+
+#buttonStart {
+	display: block;
+	margin: auto;
+	padding: 10px;
+	font-size: 1.5em;
+	background-color: #4f4f4f;
+	color: white;
+	border-radius: 12px;
+}
+
+#buttonStart:hover {
+	background-color: black;
+	cursor: pointer;
+}
+
+#restart {
+	display: block;
+	margin: auto;
+	clear: both;
+	padding: 10px;
+	font-size: 1.5em;
+	background-color: #0f6ab3;
+	color: white;
+	border-radius: 12px;
+}
+
+#restart:hover {
+	background-color: #011C31;
+	cursor: pointer;
+}
+
+#answerForm {
+	font-size: 1.5em;
+	text-align: center;
+	padding: 20px;
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 20px;
+}
+
+#answerForm span {
+	padding: 10px;
+}
+
+.question {
+	text-align: center;
+	font-weight: bold;
+}
+
+#points {
+	position: absolute;
+	float: right;
+	left: 90%;
+}
+
+#sidebar {
+	width: 20%;
+	height: 700px;
+	float: left;
+	font-weight: bold;
+}
+
+#sidebar li {
+	padding: 5px;
+}
+
+#gamearea {
+	position: relative;
+	width: 800px;
+	height: 400px;
+	border: 2px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.black {
+	background-color: black;
+}
+
+.white {
+	background-color: white;
+}
